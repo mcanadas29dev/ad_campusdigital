@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import Ridge
 from sklearn.preprocessing import LabelEncoder
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import root_mean_squared_error
